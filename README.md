@@ -22,11 +22,11 @@ Fastnar du: skriv ner exakt var och vad du försökt, och ta det först i nästa
 
 ## Uppgiften steg för steg
 
-### Steg 1. Menyn som rutnät
+### Steg 1. Menyn som rutnät √
 
 Gör `.meny-lista` (diven som håller de tre korten) till en gridbehållare. Börja med `grid-template-columns: 1fr 1fr 1fr` och se tre kolumner. Lägg till `gap: 20px`. Ta bort `margin-bottom` på korten inne i rutnätet, `gap` sköter avståndet.
 
-### Steg 2. Gör det flexibelt
+### Steg 2. Gör det flexibelt √
 
 Byt kolumnerna mot `repeat(auto-fit, minmax(240px, 1fr))`. Dra i webbläsarfönstret och se hur antalet kolumner anpassar sig själv.
 
